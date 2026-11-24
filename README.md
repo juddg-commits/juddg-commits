@@ -8,8 +8,10 @@ Senior at the University of Michigan studying Information Analysis, graduating M
 
 Built in public in [year-of-ai](https://github.com/juddg-commits/year-of-ai), with Claude Code as my pair programmer. Every number here comes from a measured run.
 
+- **[Lead router on Palantir Foundry](https://juddgurtman.com/work/lead-router/)**: labels each lead for a made-up plumbing and heating shop, drafts a reply from the shop's records, and holds every draft for a person to approve. On blind test leads my SQL safety rule caught 6 of 12 real hazards while the classifier got all 72 calls right, so I made the rule flag-only.
 - **[Coach](https://juddgurtman.com/work/coach/)**: a full-stack AI fitness app. A FastAPI backend, an installable phone app, and an agent that logs workouts, meals and weigh-ins through 7 tools and writes each day's session from logged lifts. A simulated user tests it over ten days, plus 37 offline tests.
 - **[Research agent](https://juddgurtman.com/work/research-agent/)**: answers open questions with a brief where nearly every sentence cites its source (45 of 46, 0 invented sources). A per-stage cost ledger showed where the money went, and cost per question fell from $1.68 to $1.25.
+- **[Code fixer](https://github.com/juddg-commits/year-of-ai/tree/main/apps/code-fixer)**: takes a small Python repo whose tests fail and hands back a patch, checked by a fresh test run in a locked-down container. It fixed 9 of 10 held-out bugs. The set ran once, and it's only 10 cases.
 - **[Agent fleet](https://juddgurtman.com/work/agent-fleet/)**: an MCP server that gives an orchestrator my research agent as a tool, with spending caps and a person's approval before anything costs money.
 
 ### Other projects
